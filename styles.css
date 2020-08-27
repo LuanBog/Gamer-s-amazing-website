@@ -72,6 +72,12 @@ header nav ul .selected {
 
 .secret-message {
   padding: 20px;
+  text-decoration: none;
+}
+
+.shoutout {
+  font-style: italic;
+  padding: 50px;
 }
 
 #explanation {
