@@ -43,11 +43,16 @@ header nav ul .selected {
 }
 
 .image-showcase {
+  column-count: 6;
+  row-gap: 20px;
   text-align: center;
+  padding: 10px;
 }
 
 .image-showcase img {
+  border-radius: 5%;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
   border: 3px solid black;
-  border-radius: 10%;
-  margin: 5px;
 }
